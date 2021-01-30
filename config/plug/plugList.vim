@@ -7,7 +7,7 @@ autocmd VimEnter *
 
 " ==========================================================================================
 " plugin list
-call plug#begin('~\.config\nvim\plugins')
+call plug#begin('~/.config/nvim/plugins')
 
 " =============================================
 " 美化插件
@@ -49,21 +49,21 @@ call plug#end()
 
 " =============================================
 " 美化插件
-source ~\.config\nvim\config\plug\plugconfig\plugin-lightline.vim " lightline 配置文件
+source ~/.config/nvim/config/plug/plugconfig/plugin-lightline.vim " lightline 配置文件
 
-source ~\.config\nvim\config\plug\plugconfig\plugin-vim-startify.vim " vim-startify 配置文件
+source ~/.config/nvim/config/plug/plugconfig/plugin-vim-startify.vim " vim-startify 配置文件
 
-source ~\.config\nvim\config\plug\plugconfig\plugin-rainbow.vim " rainbow 配置文件
+source ~/.config/nvim/config/plug/plugconfig/plugin-rainbow.vim " rainbow 配置文件
 " =============================================
 
 " =============================================
 " 功能插件
-source ~\.config\nvim\config\plug\plugconfig\plugin-defx.vim " defx 配置文件
-source ~\.config\nvim\config\plug\plugconfig\plugin-defx-git.vim  " defx-git 配置文件
-source ~\.config\nvim\config\plug\plugconfig\plugin-defx-icons.vim  " defx-icons 配置文件
+source ~/.config/nvim/config/plug/plugconfig/plugin-defx.vim " defx 配置文件
+source ~/.config/nvim/config/plug/plugconfig/plugin-defx-git.vim  " defx-git 配置文件
+source ~/.config/nvim/config/plug/plugconfig/plugin-defx-icons.vim  " defx-icons 配置文件
 " =============================================
 
-source ~\.config\nvim\config\plug\plugconfig\plugin-coc.vim " coc 配置文件
+source ~/.config/nvim/config/plug/plugconfig/plugin-coc.vim " coc 配置文件
 
 " end
 " ==========================================================================================
