@@ -1,2 +1,21 @@
-# nvim
-My Neovim config
+# My Neovim Configuration
+This My Neovim configuration, it's just for [Neovim](https://neovim.io/) user.
+
+## Installation
+
+### Windows
+
+```powershell
+# Clone the configuration, don't clone it to another path
+git clone https://github.com/zgdhjs/nvim.git %HOME\.config\nvim
+
+# Allow to run third-party script
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+# Change directory to the configuration's root path
+cd %HOME\.config\nvim
+
+# Run the install script
+.\install.cmd
+```
+
