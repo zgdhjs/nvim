@@ -21,7 +21,7 @@ if has("termguicolors")
 endif
 
 " 主题配色
-colorscheme molokai
+colorscheme onedark
 
 " set modifiable
 
