@@ -15,7 +15,9 @@ Plug 'joshdick/onedark.vim' " One Dark 主题配色
 
 Plug 'mhinz/vim-startify' " 启动菜单
 
-Plug 'itchyny/lightline.vim' " 状态栏
+" Plug 'itchyny/lightline.vim' " 状态栏
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 Plug 'luochen1990/rainbow' " 彩虹括号
 " =============================================
@@ -49,7 +51,8 @@ call plug#end()
 
 " =============================================
 " 美化插件
-source ~/.config/nvim/config/plug/plugconfig/plugin-lightline.vim " lightline 配置文件
+" source ~/.config/nvim/config/plug/plugconfig/plugin-lightline.vim " lightline 配置文件
+source ~/.config/nvim/config/plug/plugconfig/plugin-vim-airline.vim " vim-airline 配置文件
 
 source ~/.config/nvim/config/plug/plugconfig/plugin-vim-startify.vim " vim-startify 配置文件
 
