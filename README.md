@@ -12,10 +12,8 @@ git clone https://github.com/zgdhjs/nvim.git %HOME\.config\nvim
 # Allow to run third-party script
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-# Change directory to the configuration's root path
-cd %HOME\.config\nvim
-
 # Run the install script
+cd %HOME\.config\nvim
 .\install.cmd
 ```
 
