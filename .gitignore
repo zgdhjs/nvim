@@ -1,5 +1,0 @@
-# ingore vim-plug.vim
-/autoload/plug.vim
-
-# ignore /plugins folder
-/plugins/

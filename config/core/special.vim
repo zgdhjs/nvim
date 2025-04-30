@@ -1,1 +1,0 @@
-let g:python3_host_prog='C:\Dev\Python\Python38\python.exe'

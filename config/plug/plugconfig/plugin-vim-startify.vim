@@ -1,1 +1,0 @@
-let g:startify_padding_left = 10
