@@ -1,54 +1,65 @@
 local opt  = vim.opt
 
-opt.hidden = true
-opt.magic = true
-opt.virtualedit = 'block'
-opt.clipboard = 'unnamedplus'
-opt.wildignorecase = true
-opt.swapfile = false
+-- line numbers 
+opt.nu = true
+opt.relativenumber = true
 
-opt.history = 1000
-opt.timeout = true
-opt.ttimeout = true
-opt.timeoutlen = 500
-opt.ttimeoutlen = 10
-opt.updatetime = 100
-opt.ignorecase = true
-opt.smartcase = true
-opt.infercase = true
-opt.cursorline = true
-
-opt.showmode = false
-opt.shortmess = 'aoOTIcF'
-opt.scrolloff = 2
-opt.sidescrolloff = 5
-opt.ruler = false
-opt.showtabline = 0
-opt.winwidth = 30
-opt.pumheight = 15
-opt.showcmd = false
-
--- opt.laststatus = 3
-opt.list = true
-
---eol:¬
-opt.listchars = 'tab:» ,nbsp:+,trail:·,extends:→,precedes:←,'
-opt.undofile = true
-
+-- indentation
+opt.tabstop = 2
+opt.softtabstop = 2
+opt.shiftwidth = 2
 opt.smarttab = true
 opt.expandtab = true
 opt.autoindent = true
-opt.tabstop = 2
-opt.shiftwidth = 2
-
-opt.foldlevelstart = 99
-
-opt.splitright = true
 opt.wrap = false
 
-opt.number = true
-opt.signcolumn = 'yes'
-opt.spelloptions = 'camel'
+-- back and undo
+opt.backup = false
+opt.swapfile = false
+opt.undofile = true
+opt.undodir = vim.fn.stdpath("data") .. '/undodir'
 
--- opt.textwidth = 120
-opt.colorcolumn = '+0'
+-- search options
+opt.ignorecase = true
+opt.smartcase = true
+opt.infercase = true
+opt.incsearch = true
+
+-- UI
+opt.termguicolors = true
+opt.scrolloff = 8
+opt.sidescrolloff = 8
+opt.signcolumn = 'yes'
+opt.colorcolumn = '120'
+opt.list = true
+opt.listchars = 'tab:» ,nbsp:+,trail:·,extends:→,precedes:←,'
+opt.ruler = false
+opt.showmode = false
+
+-- folding
+opt.foldenable = true
+opt.foldmethod = "manual"
+opt.foldlevel = 99
+opt.foldlevelstart = 99
+opt.foldcolumn = "0"
+
+-- window splits
+opt.splitright = true
+opt.splitbelow = true
+
+-- interact
+opt.mouse = 'a'
+opt.clipboard = 'unnamedplus'
+opt.virtualedit = 'block'
+
+-- Time in milliseconds to wait for a mapped sequence to complete,
+opt.timeout = true
+opt.timeoutlen = 500
+opt.ttimeout = true
+opt.ttimeoutlen = 10
+
+-- misc
+opt.updatetime = 100
+opt.shortmess = 'aoOTIcF'
+opt.hidden = true
+opt.wildignorecase = true
