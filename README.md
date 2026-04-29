@@ -6,7 +6,6 @@ This My Neovim configuration, it's just for [Neovim](https://neovim.io/) user.
 ### Windows
 
 ```powershell
-# Clone the configuration, don't clone it to another path
-git clone https://github.com/zgdhjs/nvim.git %HOME\AppData\Local\nvim
+# Please use PowerShell
+git clone https://github.com/zgdhjs/nvim.git $env:USERPROFILE\AppData\Local\nvim
 ```
-
